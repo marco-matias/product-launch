@@ -1,11 +1,35 @@
 /* font @import */
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 
 :root {
   /* css variables with theme colors,
     names have to start with "--" */
-  --color-1: #b9af9e;
+  --Quill-Gray: #D9DAD8;
+  --Pickled-Bean: #694426;
+  --Limed-Oak: #9B7C4E;
+  --Xanadu: #727671;
 }
 
 body {
-    
+  background: var(--Limed-Oak);
+  font-family: 'Fascinate', sans-serif; 
+  color: var(--Pickled-Bean);
+  text-align: center;
+}
+
+p{
+  margin: 1px;
+  text-align: center;
+  padding: 1px;
+  font-size: 44px;
+}
+
+img{
+  width: 35%;
+
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
 }
